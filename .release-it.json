@@ -2,6 +2,12 @@
     "git": {
         "commitMessage": "chore: release v${version}"
     },
+    "github": {
+        "release": false
+    },
+    "gitlab": {
+        "release": false
+    },
     "npm": {
         "publish": false
     }
