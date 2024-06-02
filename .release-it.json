@@ -1,7 +1,7 @@
 {
     "hooks": {
-        "before:bump": "git checkout -b release-$version",
-        "after:git:commit": "git checkout main && git merge release-version"
+        "before:bump": "git checkout -b release-${version}",
+        "after:git:commit": "git checkout main && git merge release-${version}"
     },
     "git": {
         "commitMessage": "chore: release v${version}"
