@@ -10,7 +10,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@release-it/keep-a-changelog": "^5.0.0",
     "auto-changelog": "^2.4.0",
     "release-it": "^17.3.0"
   }
