@@ -4,6 +4,9 @@
         "commitArgs": "--no-verify",
         "changelog": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
     },
+    "github": {
+        "releaseNotes": "npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs"
+    },
     "npm": {
         "publish": false
     },
