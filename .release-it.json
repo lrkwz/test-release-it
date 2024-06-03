@@ -1,9 +1,6 @@
 {
-    "hooks": {
-        "before:bump": "git checkout -b release-${version}",
-        "before:git:push": "git checkout main && git merge release-${version} && git branch -d release-${version}"
-    },
     "git": {
+        "requireBranch": "release/*",
         "commitMessage": "chore: release v${version}"
     },
     "github": {
